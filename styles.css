@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Roboto+Condensed&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    margin: auto;
+}
+
+
+nav{
+    display: flex;
+    background: lightgray;
+    padding: 2rem;
+
+}
+
+.logo{
+    font-size: 3rem;
+    flex: 1;
+    padding: 1rem;
+    font-family: 'Hanalei Fill', cursive;
+    cursor: pointer;
+}
+
+
+.links{
+    font-size: 1.8rem;
+    font-family: 'Roboto Condensed', cursive;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex: 2;
+    padding: 1rem;
+
+}
+.link{
+    padding: 1rem;
+    border-radius: 1rem 2rem;
+}
+.link:hover{
+    background: azure;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
